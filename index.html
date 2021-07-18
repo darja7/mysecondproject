@@ -9,17 +9,17 @@
 </head>
 <body>
    <div class="menu">
-    <a href="">О нас</a>
-    <a href="">Команда</a>
-    <a href="">Цены</a>
-    <a href="">Контакты</a>
+    <a href="#about">О нас</a>
+    <a href="#team">Команда</a>
+    <a href="#prices">Цены</a>
+    <a href="#contact">Контакты</a>
    </div> 
-   <div class="header">
+   <div class="header" id="header">
     <h1>Мы запускаем стартап</h1>
     <p>Здесь будет что-то интересное</p>
     <a href="#">Подробнее</a>
    </div>
-   <div class="about">
+   <div class="about" id="about">
        <h2>О компании</h2>
        <img src="logo.jpg" alt="">
        <p>Здесь мог бы быть красивый текст о компании, но выдумывать мне лень. Продукт, суммируя приведенные примеры, переворачивает ребрендинг. Корпоративная культура индуцирует общественный медийный канал, размещаясь во всех медиа. Побочный PR-эффект экономит жизненный цикл продукции. Молодежная аудитория, не меняя концепции, изложенной выше, актаульна как никогда. Правда, специалисты отмечают, что инструмент маркетинга транслирует общественный потребительский рынок<br>
@@ -27,7 +27,7 @@
         К тому же маркетингово-ориентированное издание оправдывает повседневный PR, опираясь на опыт западных коллег. BTL допускает эмпирический сегмент рынка. Можно предположить, что таргетирование раскручивает социометрический рейтинг. <br>
         </p>
    </div>   
-        <div class="team">
+        <div class="team" id="team">
             <h2>Команда</h2>
             <p>Не стоит прогибаться под изменчивый мир</p>
             <div class="member">
@@ -59,28 +59,50 @@
                 <a href="@">Напиши мне</a>
             </div>
         </div>
-        <div class="contact">
+        <div id="prices">
+             <h2>Тарифы</h2>
+             <p>Текст</p>
+             <ul class="tariff">
+             <li class="tariff-name">Базовый</li>
+             <li><span class="important">10 </span>лайков</li>
+             <li><span class="important">10 </span>лайков</li>
+             <li><span class="important">10 </span>лайков</li>
+             <li><span class="important">И ещё важный </span>пункт</li>
+             <li><span class="important">25 рублей </span>в день</li>
+             <li><a href="1">Купить</a></li>
+             </ul>
+             <ul class="tariff">
+                <li class="tariff-best">Про</li>
+                <li><span class="important">20 </span>лайков</li>
+                <li><span class="important">20 </span>лайков</li>
+                <li><span class="important">20 </span>лайков</li>
+                <li><span class="important">Тоже важный </span>пункт</li>
+                <li><span class="important">50 рублей </span>в день</li>
+                <li><a href="1">Купить</a></li>
+                </ul>
+                <ul class="tariff">
+                    <li class="tariff-name">Премиум</li>
+                    <li><span class="important">50 </span>лайков</li>
+                    <li><span class="important">50 </span>лайков</li>
+                    <li><span class="important">50 </span>лайков</li>
+                    <li><span class="important">Мега важный </span>пункт</li>
+                    <li><span class="important">100 рублей </span>в день</li>
+                    <li><a href="1">Купить</a></li>
+                    </ul>
+        </div>
+        <div class="contact" id="contact">
          <h2>Контакты</h2> 
          <p>Не будьте скромными,пишите нам</p>  
-         <div class="inf">
-             <img src="address.png" alt="Москва,звонят колокола">
-             <p>Москва,звонят колокола</p>
-             </div>
-             <div class="inf">
-                <img src="phone.png" alt="">
-                <p>Телефон:+7(995)600-19-51</p>
-                </div>
-                <div class="inf">
-                    <img src="mail.png" alt="">
-                    <p>Email:hello@hwschool.online</p>
-                    </div>
-        </div>
-        <div class="sms">
-            <input type="text" placeholder="Имя">
-            <input type="email" placeholder="Email">
-            <input type="text" placeholder="Тема">
-            <input type="text" placeholder="Сообщения">
-            <a href="a">Отправить сообщение</a>
+             <p class="contact-info contact-address">Москва,звонят колокола</p>
+            <p class="contact-info contact-phone">Телефон:+7(995)600-19-51</p>
+            <p class="contact-info contact-mail">Email:hello@hwschool.online</p>
+            <form action="">
+                <p><input type="text" placeholder="Имя"></p>
+                <p><input type="email" placeholder="Email"></p>
+                <p><input type="text" placeholder="Тема"></p>
+                <p><input type="text" placeholder="Сообщения"></p>
+                <p><button>Отправить сообщение</button></p>
+            </form> 
         </div>
 </body>
 </html>
